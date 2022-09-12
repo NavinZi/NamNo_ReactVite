@@ -3,12 +3,15 @@ import logo from "../assets/img/heart-logo.png";
 import profileLogo from "../assets/img/cat-meme-profile.png";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { IoPlanetOutline, IoFastFoodOutline } from "react-icons/io5";
+import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { GiHollowCat } from "react-icons/gi";
 import { MdPeopleOutline } from "react-icons/md";
+import { AiOutlineHome } from 'react-icons/ai'
 
 const Sidebar = () => {
   const [open, setOpen] = useState(true);
   const Menus = [
+    { title: "Home", icon: <AiOutlineHome /> },
     { title: "NamNo", icon: <MdPeopleOutline /> },
     { title: "TRAVEL", icon: <IoPlanetOutline /> },
     { title: "FOOD", icon: <IoFastFoodOutline /> },
@@ -16,14 +19,14 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="flex">
+    <div className="sticky h-screen top-0">
       <div
         className={`${
           open ? "w-72" : "w-24"
-        } h-screen bg-namno-blue relative duration-300 p-5 pt-8 rounded-r-lg`}
+        } h-screen bg-namno-blue relative duration-300 p-5 pt-8`}
       >
-        <FaArrowCircleRight
-          className={`absolute bg-white rounded-full text-namno-blue text-4xl border-2 -right-4 top-9 ${
+        <IoIosArrowDroprightCircle
+          className={`absolute bg-white rounded-full text-namno-blue text-3xl -right-4 top-11 cursor-pointer ${
             open && "rotate-180"
           }`}
           onClick={() => setOpen(!open)}
@@ -64,9 +67,10 @@ const Sidebar = () => {
               </span>
             </li>
           ))}
-          <li className="pt-[430px]"></li>
-          <li
-            className={`flex bg-namno-dark-blue rounded-lg items-center pl-3 ${
+          
+        </ul>
+        <div
+            className={`fixed top-[55rem] flex bg-namno-dark-blue rounded-lg items-center px-4 duration-300 ${
               !open && "pl-0 bg-transparent"
             }`}
           >
@@ -81,11 +85,7 @@ const Sidebar = () => {
                 navinsbp@gmail.com
               </p>
             </div>
-          </li>
-        </ul>
-      </div>
-      <div className="p-7 text-2xl font-semibold flex-1 h-screen">
-        <h1>Home Pages</h1>
+          </div>
       </div>
     </div>
   );

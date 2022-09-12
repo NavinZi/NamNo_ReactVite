@@ -1,12 +1,12 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Sidebar from "./components/Sidebar";
+import Home from './components/Home';
 
 function App() {
   return (
-    <div>
-      <Sidebar />
+    <div className="flex">
+      <Sidebar/>
+      <Home/>
     </div>
   );
 }

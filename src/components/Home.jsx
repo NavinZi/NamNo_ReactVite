@@ -5,36 +5,148 @@ function Home() {
         <div className="bg-gradient-to-br from-indigo-500 to-indigo-800 w-[100%]">
             <div className='grid grid-cols-3 gap-20  p-8'>
                 <div className="overflow-hidden rounded-lg shadow-lg bg-white">
-                    <img className="block h-auto w-full" src="https://picsum.photos/600/400/?random" />
-                    <h1 className="text-lg">
-                        <p className="font-bold ml-3">
+                    <img className="block h-auto w-full" src="https://thecatapi.com/api/images/get?format=src&type=gif" />
+                    <div className="flex items-center justify-between p-4">
+                        <p className="text-lg font-bold">
                             Article Title
                         </p>
-                        <p className='text-left pt-2 text-sm'>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima voluptate, ad excepturi asperiores voluptates molestias saepe nemo amet, sunt quae eveniet in! Maxime quia id in, voluptate deserunt hic eveniet?
+                        <p className="text-sm font-semibold text-gray-400">
+                            12/09/2022
                         </p>
-                    </h1>
+                    </div>
+                    <div className='text-start ml-5'>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nulla mollitia. Quas libero, totam est repellendus nam assumenda facere soluta, dolorem quos, distinctio odio. Aut esse quasi in fuga? Maiores.
+                        </p>
+                    </div>
+                    <div className="flex items-center justify-between p-4">
+                    <p className="flex items-center text-black">
+                        <img alt="Placeholder" className="block rounded-full" src="https://picsum.photos/32/32/?random" />
+                        <p className="ml-2 text-sm">
+                            NavinZi
+                        </p>
+                    </p>
+                </div>
                 </div>
                 <div className="overflow-hidden rounded-lg shadow-lg bg-white">
-                    <img className="block h-auto w-full" src="https://picsum.photos/600/400/?random" />
+                    <img className="block h-auto w-full" src="https://thecatapi.com/api/images/get?format=src&type=gif" />
+                    <div className="flex items-center justify-between p-4">
+                        <p className="text-lg font-bold">
+                            Article Title
+                        </p>
+                        <p className="text-sm font-semibold text-gray-400">
+                            12/09/2022
+                        </p>
+                    </div>
+                    <div className='text-start ml-5'>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nulla mollitia. Quas libero, totam est repellendus nam assumenda facere soluta, dolorem quos, distinctio odio. Aut esse quasi in fuga? Maiores.
+                        </p>
+                    </div>
+                    <div className="flex items-center justify-between p-4">
+                    <p className="flex items-center text-black">
+                        <img alt="Placeholder" className="block rounded-full" src="https://picsum.photos/32/32/?random" />
+                        <p className="ml-2 text-sm">
+                            NavinZi
+                        </p>
+                    </p>
+                </div>
                 </div>
                 <div className="overflow-hidden rounded-lg shadow-lg bg-white">
-                    <img className="block h-auto w-full" src="https://picsum.photos/600/400/?random" />
+                    <img className="block h-auto w-full" src="https://thecatapi.com/api/images/get?format=src&type=gif" />
+                    <div className="flex items-center justify-between p-4">
+                        <p className="text-lg font-bold">
+                            Article Title
+                        </p>
+                        <p className="text-sm font-semibold text-gray-400">
+                            12/09/2022
+                        </p>
+                    </div>
+                    <div className='text-start ml-5'>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nulla mollitia. Quas libero, totam est repellendus nam assumenda facere soluta, dolorem quos, distinctio odio. Aut esse quasi in fuga? Maiores.
+                        </p>
+                    </div>
+                    <div className="flex items-center justify-between p-4">
+                    <p className="flex items-center text-black">
+                        <img alt="Placeholder" className="block rounded-full" src="https://picsum.photos/32/32/?random" />
+                        <p className="ml-2 text-sm">
+                            NavinZi
+                        </p>
+                    </p>
+                </div>
                 </div>
                 <div className="overflow-hidden rounded-lg shadow-lg bg-white">
-                    <img className="block h-auto w-full" src="https://picsum.photos/600/400/?random" />
+                    <img className="block h-auto w-full" src="https://thecatapi.com/api/images/get?format=src&type=gif" />
+                    <div className="flex items-center justify-between p-4">
+                        <p className="text-lg font-bold">
+                            Article Title
+                        </p>
+                        <p className="text-sm font-semibold text-gray-400">
+                            12/09/2022
+                        </p>
+                    </div>
+                    <div className='text-start ml-5'>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nulla mollitia. Quas libero, totam est repellendus nam assumenda facere soluta, dolorem quos, distinctio odio. Aut esse quasi in fuga? Maiores.
+                        </p>
+                    </div>
+                    <div className="flex items-center justify-between p-4">
+                    <p className="flex items-center text-black">
+                        <img alt="Placeholder" className="block rounded-full" src="https://picsum.photos/32/32/?random" />
+                        <p className="ml-2 text-sm">
+                            NavinZi
+                        </p>
+                    </p>
+                </div>
                 </div>
                 <div className="overflow-hidden rounded-lg shadow-lg bg-white">
-                    <img className="block h-auto w-full" src="https://picsum.photos/600/400/?random" />
+                    <img className="block h-auto w-full" src="https://thecatapi.com/api/images/get?format=src&type=gif" />
+                    <div className="flex items-center justify-between p-4">
+                        <p className="text-lg font-bold">
+                            Article Title
+                        </p>
+                        <p className="text-sm font-semibold text-gray-400">
+                            12/09/2022
+                        </p>
+                    </div>
+                    <div className='text-start ml-5'>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nulla mollitia. Quas libero, totam est repellendus nam assumenda facere soluta, dolorem quos, distinctio odio. Aut esse quasi in fuga? Maiores.
+                        </p>
+                    </div>
+                    <div className="flex items-center justify-between p-4">
+                    <p className="flex items-center text-black">
+                        <img alt="Placeholder" className="block rounded-full" src="https://picsum.photos/32/32/?random" />
+                        <p className="ml-2 text-sm">
+                            NavinZi
+                        </p>
+                    </p>
+                </div>
                 </div>
                 <div className="overflow-hidden rounded-lg shadow-lg bg-white">
-                    <img className="block h-auto w-full" src="https://picsum.photos/600/400/?random" />
+                    <img className="block h-auto w-full" src="https://thecatapi.com/api/images/get?format=src&type=gif" />
+                    <div className="flex items-center justify-between p-4">
+                        <p className="text-lg font-bold">
+                            Article Title
+                        </p>
+                        <p className="text-sm font-semibold text-gray-400">
+                            12/09/2022
+                        </p>
+                    </div>
+                    <div className='text-start ml-5'>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nulla mollitia. Quas libero, totam est repellendus nam assumenda facere soluta, dolorem quos, distinctio odio. Aut esse quasi in fuga? Maiores.
+                        </p>
+                    </div>
+                    <div className="flex items-center justify-between p-4">
+                    <p className="flex items-center text-black">
+                        <img alt="Placeholder" className="block rounded-full" src="https://picsum.photos/32/32/?random" />
+                        <p className="ml-2 text-sm">
+                            NavinZi
+                        </p>
+                    </p>
                 </div>
-                <div className="overflow-hidden rounded-lg shadow-lg bg-white">
-                    <img className="block h-auto w-full" src="https://picsum.photos/600/400/?random" />
-                </div>
-                <div className="overflow-hidden rounded-lg shadow-lg bg-white">
-                    <img className="block h-auto w-full" src="https://picsum.photos/600/400/?random" />
                 </div>
             </div>
         </div>
